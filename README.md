@@ -1,16 +1,74 @@
-# React + Vite
+Ryze Website Redesign 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern redesign of the **Get-Ryze.ai** website built with **React, Vite, and Tailwind CSS**, focusing on improved UI/UX, clarity of communication, and conversion-focused design.
 
-Currently, two official plugins are available:
+📦 **Tech Stack:** React · Vite · Tailwind CSS · React Router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+✨ What Was Improved
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ 🎨 Visual Design & Branding
+- Redesigned the entire website with a **clean white + orange theme**
+- Added **animated gradient backgrounds** for a modern SaaS feel
+- Improved typography, spacing, and visual hierarchy
+- Consistent design system across all pages
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 🧭 Navigation & Structure
+- Implemented **client-side routing** using React Router
+- Added a responsive, sticky header with:
+  - Active link states
+  - Gradient background on scroll
+- Gracefully handled non-built pages (e.g. Product marked as “Coming Soon”)
+
+---
+
+ 🏠 Homepage Enhancements
+- Strong hero section clearly explaining **what Ryze does & its value**
+- Animated background gradients to avoid a flat white look
+- Clear CTAs: *Get Started* and *Book a Demo*
+- Improved trust section with aligned brand logos
+
+---
+
+ 🧩 Features Section
+- Redesigned feature cards with:
+  - Image overlays
+  - Hover animations
+  - Scroll-in animations
+- Added a **dynamic feature detail page** (`/features/:slug`) to demonstrate scalability
+- Structured feature data separately for clean, maintainable code
+
+---
+
+ 📊 Case Studies
+- Reworked case studies into a **modern, story-driven layout**
+- Image-based cards with hover reveal animations
+- Focused on outcomes and real-world use cases instead of plain text
+
+---
+
+ 💰 Pricing Page
+- Redesigned pricing with:
+  - Clear plan comparison
+  - Highlighted “Most Popular” plan
+  - Subtle animations and emphasis on conversion
+- Maintained simplicity while improving visual appeal
+
+---
+
+ 🏢 About Page
+- Added brand storytelling: mission, values, and purpose
+- Introduced visual cards, soft gradients, and hover interactions
+- Improved credibility and trust through structured content
+
+---
+
+ 🦶 Footer
+- Clean, compact SaaS-style footer
+- Improved alignment, spacing, and readability
+- Included navigation links and CTAs without clutter
+
+---
